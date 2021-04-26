@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6BE8C"
+    tools:context=".Firebase_Activity">
+
+    <EditText
+        android:id="@+id/firstnameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_fb"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/img_fb"
+        android:layout_width="285dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/pic1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/lastnameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstnameinput"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/phonenuminput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastnameinput"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/emailinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonenuminput"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/useridinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_id"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailinput"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="181dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/useridinput"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/insertbtn"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/insert"
+            app:backgroundTint="#F57F17" />
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/update"
+            app:backgroundTint="#F57F17" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            app:backgroundTint="#F57F17" />
+
+        <Button
+            android:id="@+id/selectoptbtn"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_options"
+            app:backgroundTint="#F57F17" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

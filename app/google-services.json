@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "299411517914",
+    "firebase_url": "https://mariamalhugail191333-default-rtdb.firebaseio.com",
+    "project_id": "mariamalhugail191333",
+    "storage_bucket": "mariamalhugail191333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299411517914:android:7f6a8cee16d74b2d10d0e3",
+        "android_client_info": {
+          "package_name": "com.example.alhugailproject191333"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299411517914-oo50k5rvdsq0s7ek3q1dhd2u70pa14mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8Ys-nenTvKTOnx5VuMGhqS5MzYP-4MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299411517914-oo50k5rvdsq0s7ek3q1dhd2u70pa14mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299411517914:android:ac2590c3c2f8491710d0e3",
+        "android_client_info": {
+          "package_name": "com.example.mobilefinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299411517914-oo50k5rvdsq0s7ek3q1dhd2u70pa14mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8Ys-nenTvKTOnx5VuMGhqS5MzYP-4MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299411517914-oo50k5rvdsq0s7ek3q1dhd2u70pa14mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
